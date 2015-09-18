@@ -24,6 +24,5 @@
         "psr-4": {
             "Dyankov\\ShoppingCart\\": "src"
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
