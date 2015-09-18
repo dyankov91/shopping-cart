@@ -1,8 +1,21 @@
 {
     "name": "dyankov/shopping-cart",
     "description": "Simple PHP Shopping Cart",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stefan Dyankov",
+            "email": "s.dyankov@gmail.com"
+        }
+    ],
+    "keywords": [
+        "shopping cart",
+        "cart",
+        "shopping"
+    ],
     "require": {
-        "php": "^5.5"
+        "php": "^5.5",
+        "illuminate/support": "^5.1"
     },
     "require-dev": {
         "phpspec/phpspec": "^2.3"
@@ -12,12 +25,5 @@
             "Dyankov\\ShoppingCart\\": "src"
         }
     },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Stefan Dyankov",
-            "email": "s.dyankov@gmail.com"
-        }
-    ],
     "minimum-stability": "stable"
 }

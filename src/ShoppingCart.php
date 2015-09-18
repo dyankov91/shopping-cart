@@ -33,6 +33,8 @@ class ShoppingCart implements Countable
     {
         $this->items[] = $item;
 
+        $this->persists();
+
         return $this;
     }
 
@@ -49,7 +51,19 @@ class ShoppingCart implements Countable
             return $item !== $itemToTakeOut;
         });
 
+        $this->persists();
+
         return $this;
+    }
+
+    /**
+     * Persist the content of the cart, so it can be accessed after time.
+     *
+     * @return bool
+     */
+    protected function persists()
+    {
+        //@todo
     }
 
     /**
