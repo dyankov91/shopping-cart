@@ -1,13 +1,23 @@
 {
-    "autoload": {
-        "psr-4": {
-    	    "": "src"
-        }
-    },
+    "name": "dyankov/shopping-cart",
+    "description": "Simple PHP Shopping Cart",
     "require": {
         "php": "^5.5"
     },
     "require-dev": {
         "phpspec/phpspec": "^2.3"
-    }
+    },
+    "autoload": {
+        "psr-4": {
+            "Dyankov\\ShoppingCart\\": "src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stefan Dyankov",
+            "email": "s.dyankov@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
 }

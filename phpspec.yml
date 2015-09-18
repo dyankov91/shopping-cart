@@ -1,0 +1,4 @@
+suites:
+    dyankov_suite:
+        namespace: Dyankov\ShoppingCart
+        psr4_prefix: Dyankov\ShoppingCart
